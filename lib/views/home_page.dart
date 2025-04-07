@@ -1,25 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:helloworld/controllers/bug_report_controller.dart';
 import 'package:shake/shake.dart';
-import 'custom_bug_actions_screen.dart';
 
 class BugReportHomePage extends StatefulWidget {
   const BugReportHomePage({super.key});
-
   @override
   State<BugReportHomePage> createState() => _BugReportHomePageState();
 }
 
 class _BugReportHomePageState extends State<BugReportHomePage> {
   ShakeDetector? detector;
+  final BugReportController bugCtrl = BugReportController();
+
 
   @override
   void initState() {
     super.initState();
     detector = ShakeDetector.autoStart(
       onPhoneShake: (event) {
-        Navigator.of(context).push(
-          MaterialPageRoute(builder: (_) => CustomBugActionsScreen()),
-        );
+        bugCtrl.handleAction("shake");
       },
     );
   }

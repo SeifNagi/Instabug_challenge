@@ -41,7 +41,6 @@ dependencies:
   shake: ^3.0.0
   sensors_plus: ^6.1.1
   path_provider: ^2.1.4
-  image_picker: ^1.1.2
   
 
 dev_dependencies:
