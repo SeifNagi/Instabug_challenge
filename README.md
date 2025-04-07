@@ -8,9 +8,8 @@ lib/
 ├── controllers/
 │   └── bug_report_controller.dart
 ├── models/
-│   └── user_feedback.dart
+│   └── user_feedback_models.dart
 ├── views/
-│   ├── custom_bug_actions_screen.dart
 │   └── home_page.dart
 └── main.dart
 ``` 
@@ -23,11 +22,11 @@ lib/
 
 1. Clone the repository:
 
-   git clone https://github.com/SeifNagi/instaug_assesment2.git
+   git clone https://github.com/SeifNagi/Instabug_challenge.git
    
 2. Navigate to the project directory:
 
-   cd instaug_assesment2
+   cd Instabug_challenge
    
 3. Install the required dependencies:
    flutter pub get
@@ -52,6 +51,4 @@ lib/
 
 - `sensors_plus: ^6.1.1`:
 
-- `path_provider: ^2.1.4`: 
-
-- `image_picker: ^1.1.2`:
+- `path_provider: ^2.1.4`:
