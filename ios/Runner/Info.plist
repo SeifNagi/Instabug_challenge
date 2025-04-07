@@ -49,3 +49,8 @@
 	<true/>
 </dict>
 </plist>
+<key>instabug</key>
+<dict>
+  <key>token</key>
+  <string>366d1da2a3efac777d62a6c3f9014bfe</string>
+</dict>

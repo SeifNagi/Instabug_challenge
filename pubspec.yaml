@@ -10,11 +10,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  instabug_flutter:
+  image_picker: 
+  path_provider: 
+  sensors_plus: 
+  shake:
+  logger:
+  flutter_plugin_android_lifecycle:
+  screenshot:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  lints: ^4.0.0
 
 flutter:
   uses-material-design: true
