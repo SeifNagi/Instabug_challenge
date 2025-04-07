@@ -3,15 +3,17 @@
 ​The provided Flutter application integrates several functionalities aimed at enhancing user experience and facilitating effective bug reporting.
 We used the MCV with below structure:
 
+``` 
 lib/
 ├── controllers/
 │   └── bug_report_controller.dart
 ├── models/
 │   └── user_feedback.dart
 ├── views/
+│   ├── custom_bug_actions_screen.dart
 │   └── home_page.dart
 └── main.dart
-
+``` 
 **Prerequisites:**
 
 - Flutter SDK version 3.22.0 or higher.
